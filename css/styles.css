@@ -14,6 +14,7 @@ body {
 
 .logo-menu {
     background: black;
+    border-bottom: 1px solid rgb(255, 255, 255,.5)
 }
     .logo-menu .menu a {
         display: inline-block;
@@ -37,6 +38,8 @@ nav a {
 
 .section {
     background: rgba(0, 0, 0, 0.85);
+    margin-bottom: 1px;
+    vertical-align: top;
 }
 
 .footer{
@@ -48,6 +51,7 @@ nav a {
     font-size: 28px;
     color: white;
     padding: 0 1px;
+    letter-spacing: 15px;
 }
 
 .contacsocial a:hover{
