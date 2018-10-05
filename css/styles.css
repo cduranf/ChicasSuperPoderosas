@@ -44,5 +44,14 @@ nav a {
     background: black;
 }
 
+.contacsocial a {
+    font-size: 28px;
+    color: white;
+    padding: 0 1px;
+}
+
+.contacsocial a:hover{
+    color: wheat;
+}
 
 
