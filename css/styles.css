@@ -67,9 +67,8 @@ header {
 }
 
 .contain{
-    width: auto;
+    width: 100%;
     background: black;
-
 }
 
 h1 {
@@ -143,10 +142,11 @@ img {
 
 .galery1 {
     border: 4px solid white;
+    padding: 20px;
 }
 
 .galery {
-    padding: 20px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -159,9 +159,16 @@ img {
     background: white;
 }
 
+.galery__item :hover {
+    color: wheat;
+    border: 6px solid wheat;
+}
+
 footer {
     background: gray;
     padding: 30px;
+    text-align: center;
+    border: 4px solid white;
 }
 
 .contacsocial {
@@ -179,11 +186,56 @@ footer {
     color: wheat;
     border: 6px solid wheat;
 }
+
  @media (min-width: 480px) {
+    
+    .main-bar {
+        position: fixed;
+        float: left;
+        top: 0;
+        left: 0;
+
+
+    }
+
     .galery__item {
         width: 48%;
         padding: 8px;
         margin: 5px;
     }
  }
+
+ @media (min-width: 768px) {
+    
+    .main-bar {
+        position: fixed;
+        float: left;
+        top: 0;
+        left: 0;
+        
+
+    }
+    
+    .galery__item {
+        width: 30%;
+        padding: 8px;
+    }
+ }
+
+@media (min-width: 1024px) {
+    
+    .main-bar {
+        position: fixed;
+        float: left;
+        top: 0;
+        left: 0;
+        
+
+    }
+    
+    .galery__item {
+        width: 20%;
+        padding: 8px;
+    }
+}
 
