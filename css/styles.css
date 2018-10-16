@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background: black;
 }
 
 .body {
@@ -10,7 +11,7 @@
     
 }
 
-header{
+header {
     width: 100%;
 
     background:black;
@@ -28,24 +29,27 @@ header{
     width: 95%;
     margin: auto;
     overflow: hidden;
-    
+    border-bottom: 1px solid white;
 }
 
 .slider ul {
     display: flex;
     padding: 0;
     width: 400%;
-
+    
     animation: change 20s infinite alternate;
 }
 
 .slider li {
     list-style: none;
     width: 100%;
+    
 }
 
 .slider img {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 @keyframes change {
@@ -65,14 +69,16 @@ header{
 .contain{
     width: auto;
     background: black;
+
 }
 
 h1 {
     float: left;
     transform: translateX(3%);
-    padding: 5px; 
+    padding: 6.4px; 
     color: white;
 }
+
 
 
 .main-bar {
@@ -82,6 +88,7 @@ h1 {
     float: left;
     display: flex;
     transform: translateX(100%);
+    border-bottom: 1px solid white;
 }
 
 .main-bar a {
@@ -99,17 +106,18 @@ h1 {
 }
 
 .article {
-    margin-top: 50px;
-
+    
+    border-bottom: 1px solid white;
 }
 
 .margin-img {
     background:black;
     color: white;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
     margin-top: 1px;
-    margin: 5px;
+    margin: 150px;
+    border: 4px solid white;
 }
 
 .txt {
@@ -124,16 +132,22 @@ h2 {
 footer {
     background: gray;
     padding: 30px;
+    
+}
+
+.contacsocial {
+    background: gray;
 }
 
 .contacsocial a {
     font-size: 28px;
     color: white;
     padding:8px;
-    background: gray;  
+    border: 4px solid white;
 }
 
 .contacsocial a:hover{
     color: wheat;
+   
 }
 
