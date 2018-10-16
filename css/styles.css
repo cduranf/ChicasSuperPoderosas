@@ -1,14 +1,14 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     background: black;
+    
 }
 
 .body {
     font-family: 'Lalezar', cursive;
-    
 }
 
 header {
@@ -20,30 +20,30 @@ header {
 
     left: 0;
     z-index: 100%;
-    border-bottom: 1px solid white;
+    border-bottom: 4px solid white;
 
 }
 
-
 .slider {
-    width: 95%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
     border-bottom: 1px solid white;
+    border: 4px solid white;
 }
 
 .slider ul {
     display: flex;
     padding: 0;
     width: 400%;
-    
+    padding: 0px 0px 0px 0px;
     animation: change 20s infinite alternate;
 }
 
 .slider li {
     list-style: none;
     width: 100%;
-    
+    padding: 50px 0px 0px 0px;
 }
 
 .slider img {
@@ -79,8 +79,6 @@ h1 {
     color: white;
 }
 
-
-
 .main-bar {
     position: absolute;
     width: auto;
@@ -102,22 +100,31 @@ h1 {
 .main-bar a:hover{
     color: wheat;
     border-bottom: 4px solid wheat;
-    
 }
 
 .article {
     
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+}
+
+.main-contain {
+    border: 4px solid white;
 }
 
 .margin-img {
     background:black;
     color: white;
-    padding: 2px;
-    text-align: center;
-    margin-top: 1px;
-    margin: 150px;
-    border: 4px solid white;
+    padding: 10px;
+    text-align: center;   
+    margin: 0 auto;
+}
+
+.img1 {
+    
+    /* margin: 2px 175px 5px; */
+    margin: 0 auto;
+    
+    
 }
 
 .txt {
@@ -129,10 +136,32 @@ h2 {
     background:black;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.galery1 {
+    border: 4px solid white;
+}
+
+.galery {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.galery__item {
+    width: 80px;
+    border: 4px solid white;
+    background: white;
+}
+
 footer {
     background: gray;
     padding: 30px;
-    
 }
 
 .contacsocial {
@@ -142,12 +171,19 @@ footer {
 .contacsocial a {
     font-size: 28px;
     color: white;
-    padding:8px;
+    padding:10px;
     border: 4px solid white;
 }
 
 .contacsocial a:hover{
     color: wheat;
-   
+    border: 6px solid wheat;
 }
+ @media (min-width: 480px) {
+    .galery__item {
+        width: 48%;
+        padding: 8px;
+        margin: 5px;
+    }
+ }
 
